@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FLKAutoLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,11 +37,6 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1750F66DAB61301762BED1D317B3A724</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>1C3436CEA5C3D39764C5F54374794ECB</key>
 		<dict>
 			<key>primary</key>
@@ -47,12 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>A34CA2CDCA33A9CF24A09EA980F8EDEE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C6CEE7BEADAD8E11590F1C4ACF7C4BCC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1F8B080BD928F088F49CF9A04A0F9E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

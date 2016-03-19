@@ -85,12 +85,14 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Radial/AFNetworking.framework"
+  install_framework "Pods-Radial/Alamofire.framework"
   install_framework "Pods-Radial/FLKAutoLayout.framework"
   install_framework "Pods-Radial/IBAnimatable.framework"
   install_framework "Pods-Radial/ORStackView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Radial/AFNetworking.framework"
+  install_framework "Pods-Radial/Alamofire.framework"
   install_framework "Pods-Radial/FLKAutoLayout.framework"
   install_framework "Pods-Radial/IBAnimatable.framework"
   install_framework "Pods-Radial/ORStackView.framework"

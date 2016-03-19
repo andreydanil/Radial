@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.0.4)
   - AFNetworking/UIKit (3.0.4):
     - AFNetworking/NSURLSession
+  - Alamofire (3.2.1)
   - FLKAutoLayout (0.2.1)
   - IBAnimatable (1.2)
   - ORStackView (3.0.1):
@@ -21,11 +22,13 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - Alamofire (~> 3.0)
   - IBAnimatable (~> 1.2)
   - ORStackView (~> 3.0)
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
   FLKAutoLayout: 9db6b30c2008d230da608e62c607b11c23b942e6
   IBAnimatable: bcebfaf34b041949da5ed668ac5ab2e28a4b2357
   ORStackView: a1bb52748cd0ae29891c140baf22ff8972fb363c
