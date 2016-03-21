@@ -89,6 +89,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Radial/FLKAutoLayout.framework"
   install_framework "Pods-Radial/IBAnimatable.framework"
   install_framework "Pods-Radial/ORStackView.framework"
+  install_framework "Pods-Radial/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Radial/AFNetworking.framework"
@@ -96,4 +97,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Radial/FLKAutoLayout.framework"
   install_framework "Pods-Radial/IBAnimatable.framework"
   install_framework "Pods-Radial/ORStackView.framework"
+  install_framework "Pods-Radial/SwiftyJSON.framework"
 fi
