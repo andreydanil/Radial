@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5DEC848C0E16092242A2AC69 /* Pods_Radial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9411D9B81FE7019BBDA6BD43 /* Pods_Radial.framework */; };
-		6F40D2991C94782600B5F057 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F40D2981C94782600B5F057 /* LoginViewController.swift */; };
 		6FD567A11C946E3F0077364B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD567A01C946E3F0077364B /* AppDelegate.swift */; };
 		6FD567A31C946E3F0077364B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD567A21C946E3F0077364B /* ViewController.swift */; };
 		6FD567A61C946E3F0077364B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD567A41C946E3F0077364B /* Main.storyboard */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		4B771C7EC71222D10EBBF967 /* Pods-Radial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Radial/Pods-Radial.debug.xcconfig"; sourceTree = "<group>"; };
 		6E7CC697C9FCB9374DD6C63E /* Pods-Radial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radial.release.xcconfig"; path = "Pods/Target Support Files/Pods-Radial/Pods-Radial.release.xcconfig"; sourceTree = "<group>"; };
-		6F40D2981C94782600B5F057 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6FD5679D1C946E3F0077364B /* Radial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD567A01C946E3F0077364B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD567A21C946E3F0077364B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +50,7 @@
 		6FD567BC1C946E3F0077364B /* RadialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD567C01C946E3F0077364B /* RadialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialUITests.swift; sourceTree = "<group>"; };
 		6FD567C21C946E3F0077364B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FDBDB211CA0E23B00B78775 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		9411D9B81FE7019BBDA6BD43 /* Pods_Radial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,7 +83,6 @@
 		6F40D2971C94781300B5F057 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6F40D2981C94782600B5F057 /* LoginViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -92,6 +90,7 @@
 		6FD567941C946E3F0077364B = {
 			isa = PBXGroup;
 			children = (
+				6FDBDB211CA0E23B00B78775 /* MyPlayground.playground */,
 				6FD5679F1C946E3F0077364B /* Radial */,
 				6FD567B41C946E3F0077364B /* RadialTests */,
 				6FD567BF1C946E3F0077364B /* RadialUITests */,
@@ -342,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F40D2991C94782600B5F057 /* LoginViewController.swift in Sources */,
 				6FD567A31C946E3F0077364B /* ViewController.swift in Sources */,
 				6FD567A11C946E3F0077364B /* AppDelegate.swift in Sources */,
 			);
