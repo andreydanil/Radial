@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3HR-9z-TNV">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
@@ -12,5 +12,93 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--LoginV Iew Controller-->
+        <scene sceneID="2LH-lP-Hej">
+            <objects>
+                <viewController id="3HR-9z-TNV" customClass="LoginVIewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iwy-wi-63l"/>
+                        <viewControllerLayoutGuide type="bottom" id="v3S-9i-8NO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jt5-gH-GLT" customClass="LoginViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQ3-6e-yBj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JzA-Z6-iWd">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login-secondary-logo" translatesAutoresizingMaskIntoConstraints="NO" id="QxT-n7-7pM">
+                                                <rect key="frame" x="78" y="86" width="218" height="66"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iE4-RS-VMI">
+                                                <rect key="frame" x="27" y="527" width="320" height="50"/>
+                                                <color key="backgroundColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="IR2-8D-zmk"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="hLE-nK-Jhp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <state key="normal" title="Sign up">
+                                                    <color key="titleColor" red="0.090196078430000007" green="0.49019607840000001" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3M-ha-ajK">
+                                                <rect key="frame" x="27" y="597" width="320" height="50"/>
+                                                <color key="backgroundColor" red="0.04382625222" green="0.63938087219999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="EHX-p7-nZf"/>
+                                                    <constraint firstAttribute="height" constant="50" id="Gw4-1u-G8B"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="15"/>
+                                                <state key="normal" title="Login">
+                                                    <color key="titleColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.0" green="0.7254001498" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="Z3M-ha-ajK" firstAttribute="top" secondItem="iE4-RS-VMI" secondAttribute="bottom" constant="20" id="5Lt-bV-GGg"/>
+                                            <constraint firstItem="Z3M-ha-ajK" firstAttribute="leading" secondItem="JzA-Z6-iWd" secondAttribute="leading" constant="27" id="EyQ-X5-uRc"/>
+                                            <constraint firstItem="QxT-n7-7pM" firstAttribute="top" secondItem="JzA-Z6-iWd" secondAttribute="top" constant="86" id="dXN-Og-ezl"/>
+                                            <constraint firstAttribute="bottom" secondItem="Z3M-ha-ajK" secondAttribute="bottom" constant="20" id="ppz-JJ-ZnK"/>
+                                            <constraint firstItem="iE4-RS-VMI" firstAttribute="leading" secondItem="JzA-Z6-iWd" secondAttribute="leading" constant="27" id="wsf-0J-J7S"/>
+                                            <constraint firstItem="QxT-n7-7pM" firstAttribute="centerX" secondItem="JzA-Z6-iWd" secondAttribute="centerX" id="xRa-i0-jFo"/>
+                                            <constraint firstAttribute="trailing" secondItem="iE4-RS-VMI" secondAttribute="trailing" constant="28" id="xw0-Yp-Kw2"/>
+                                            <constraint firstAttribute="trailing" secondItem="Z3M-ha-ajK" secondAttribute="trailing" constant="28" id="zG5-jX-xMH"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="JzA-Z6-iWd" firstAttribute="centerY" secondItem="lQ3-6e-yBj" secondAttribute="centerY" id="41V-kY-8Qc"/>
+                                    <constraint firstAttribute="trailing" secondItem="JzA-Z6-iWd" secondAttribute="trailing" id="5e1-jr-ZNY"/>
+                                    <constraint firstItem="JzA-Z6-iWd" firstAttribute="top" secondItem="lQ3-6e-yBj" secondAttribute="top" id="KPp-WY-cNJ"/>
+                                    <constraint firstItem="JzA-Z6-iWd" firstAttribute="centerX" secondItem="lQ3-6e-yBj" secondAttribute="centerX" id="YA6-n4-Bf6"/>
+                                    <constraint firstItem="JzA-Z6-iWd" firstAttribute="leading" secondItem="lQ3-6e-yBj" secondAttribute="leading" id="z78-iW-2gF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lQ3-6e-yBj" firstAttribute="leading" secondItem="Jt5-gH-GLT" secondAttribute="leading" id="2jA-D4-17z"/>
+                            <constraint firstItem="lQ3-6e-yBj" firstAttribute="bottom" secondItem="v3S-9i-8NO" secondAttribute="top" id="Q7X-rn-Ybf"/>
+                            <constraint firstAttribute="trailing" secondItem="lQ3-6e-yBj" secondAttribute="trailing" id="Z9l-IB-qyB"/>
+                            <constraint firstItem="lQ3-6e-yBj" firstAttribute="top" secondItem="Jt5-gH-GLT" secondAttribute="top" id="pVc-gT-1lV"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c3H-Lq-c26" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerLayoutGuide type="top" id="vVN-rB-kHX"/>
+                <viewControllerLayoutGuide type="bottom" id="bCw-5d-Zvh"/>
+            </objects>
+            <point key="canvasLocation" x="46" y="1177"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="login-secondary-logo" width="218" height="66"/>
+    </resources>
 </document>
